@@ -1,0 +1,168 @@
+/* =============================================
+       			Basic Setup
+============================================= */
+.mahifont{
+	font-family: 'Kaushan Script', cursive;
+}
+body{
+	
+}
+
+/* Navbar Section */
+
+#navbar ul li a{
+	color: #fff;
+}
+#navbar .navbar-brand{
+	font-size: 25px;
+}
+#navbar ul li a:hover{
+	border-bottom: 2px solid #fff;
+}
+#navbar .navbar-toggler:focus{
+	outline: 0;
+}
+#navbar .navbar-toggler{
+	border: 0;
+}
+
+/* Banner Sectiom */
+.carousel-caption2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	
+	left: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#banner .carousel-indicators li{
+	height: unset;
+	text-indent: unset;
+	background-color: transparent;
+}
+
+#banner .main-border{
+	background: #fff;
+	height: 3px;
+}
+ #banner .main-border .sub-border{
+ 	width: 0;
+ 	transition: 1s;
+ }
+#banner .carousel-indicators li.active .main-border .sub-border{
+	height: 3px;
+	background-color: #f38181;
+	width: 50%;
+}
+#banner .carousel-indicators li{
+	width: 200px;
+	margin: 15px;
+}
+
+#banner .carousel-item .overlay{
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-image: linear-gradient(rgba(243,129,129,.9), rgba(252,227,138,.8));
+}
+#banner span{
+	color: #fff;
+}
+#banner h1{
+	font-size: 6.5rem;
+	margin: 0;
+}
+#banner .btn{
+	outline: 3px solid #fff;
+	color: #fff;
+}
+#banner a:hover{
+	background-color: #f38181;
+	font-size: 18px;
+}
+#banner .bo{
+	width: 60px;
+	background-color: red;
+	border-bottom: 3px solid #fff;
+	text-align: center;
+}
+
+/* Team Section */
+
+.bo{
+	width: 60px;
+	background-color: red;
+	border-bottom: 3px solid #f38181;
+	text-align: center;
+}
+#team img{
+	overflow: hidden;
+}
+#team .content-hover{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(243,129,129,.9), rgba(252,227,138,.9));
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: 8px 8px 0 0 #95e1d3;
+	display: none;
+}
+#team .fas{
+	font-size: 40px;
+}
+#team .col-md-4:hover .content-hover{
+	display: block;
+}
+#team .parent{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#number{
+	background: #95e1d3;
+}
+#number h1{
+	font-size: 3rem;
+	margin-bottom:3px;
+}
+
+#number .row1{
+	display: flex;
+}
+#number .child{
+	width: 20%;
+	border-right: 1px solid rgba(255,255,255,.5);
+	padding: 2rem 0;
+}
+#number .child:first-child{
+	border-left: 1px solid rgba(255,255,255,.5);
+
+}
+#design .iphone{
+	position: absolute;
+	transform: translate(660px, -384px);
+}
+#design{
+	background-image: url('../img/banner2.jpg');
+	height: 100%;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+#design ..overlay{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: rgba(255, 255, 255, .8);
+	z-index: 0;
+	overflow: hidden;
+}

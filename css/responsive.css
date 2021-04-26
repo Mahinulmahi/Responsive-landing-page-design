@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1920px){
+
+}
+@media only screen and (max-width: 1199px){
+	#banner h1{
+	font-size: 4.0rem;
+	margin: 0;
+	}
+	#banner h2{
+		font-size: 40px;
+	}
+	#banner .lt{
+		margin-bottom: 0;
+	}
+	#design .iphone{
+		transform: translate(540px, -384px);
+	}
+}
+
+@media only screen and (max-width: 991px){
+	#banner h1{
+	font-size: 3.5rem;
+	margin: 0;
+	}
+	#banner h2{
+		font-size: 30px;
+	}
+	#banner .lt{
+		margin-bottom: 30px;
+	}
+	#banner .bo{
+		display: none;
+	}
+	#design .iphone{
+		transform: translate(440px, -384px);
+	}
+}
+@media only screen and (max-width: 767px){
+	#banner h1{
+	font-size: 2.0rem;
+	margin: 0;
+	}
+	#banner h2{
+		font-size: 20px;
+	}
+	#banner .lt{
+		margin-bottom: 30px;
+	}
+	#banner a{
+		display: none;
+	}
+	#number .row1{
+		flex-wrap: wrap;
+	}
+	#number .child:nth-child(1), 
+	#number .child:nth-child(2),
+	#number .child:nth-child(3){
+		width: 33.33%;
+		border: 0;
+	}
+	#number .child:first-child{
+		border: 0;
+	}
+	#number .child:nth-child(4), 
+	#number .child:nth-child(5){
+		width: 50%;
+		border: 0;
+	}
+	#design .iphone{
+		transform: translate(290px, -384px);
+	}
+}
+
+@media only screen and (max-width: 575px){
+	.carousel-indicators{
+		display: none;
+	}
+	#banner h1{
+	font-size: 1.5rem;
+	margin: 0;
+	}
+	#banner h2{
+		font-size: 15px;
+		margin-top: 50px;
+	}
+	#number .row1{
+		flex-wrap: wrap;
+	}
+	#number .child:nth-child(1), 
+	#number .child:nth-child(2),
+	#number .child:nth-child(3){
+		width: 50%;
+		border: 0;
+	}
+	#number .child:first-child{
+		border: 0;
+	}
+	#number .child:nth-child(4), 
+	#number .child:nth-child(5){
+		width: 50%;
+		border: 0;
+	}
+	#number .child:nth-child(5){
+		width: 100%;
+		border: 0;
+	}
+	#design .mobile img{
+		display: block;
+		width: 100%;
+	}
+	#design .iphone{
+		display: none;
+	}
+	
+}
+
